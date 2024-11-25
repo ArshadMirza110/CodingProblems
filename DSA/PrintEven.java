@@ -20,10 +20,8 @@ public class PrintEven {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int N = sc.nextInt();
-        for (int i=1;i<=N;i++){
-            if (i%2==0){
-                System.out.print(i+" ");
-            }
+        for (int i=1;i<=10;i++){
+            System.out.println(N+"X"+i+"="+i*N);
         }
 
 
