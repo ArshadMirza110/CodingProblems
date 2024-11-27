@@ -1,17 +1,17 @@
-Problem Description
-Take a number A as input, print its multiplication table having the first 10 multiples.
+// Problem Description
+// Take a number A as input, print its multiplication table having the first 10 multiples.
 
-Problem Constraints
-1 <= A <= 1000
+// Problem Constraints
+// 1 <= A <= 1000
 
-Input Format
-First line contains a single integer A.
+// Input Format
+// First line contains a single integer A.
 
-Output Format
-Print 10 lines, ith line containing ith multiple.
+// Output Format
+// Print 10 lines, ith line containing ith multiple.
 
 import java.util.*;
-public class PrintEven {
+public class PrintTable {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
